@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+thead {
+    background: #000;
+}
+
+thead tr {
+    border: none;
+}
+
+thead th {
+    color: #fff;
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background: #fcfcfc;
+    color: #000;
+}
+
+tbody tr:nth-child(even) {
+    background: #546E7A;
+    color: #fff;
+}
+
+tbody td {
+    padding: 10px;
+}
